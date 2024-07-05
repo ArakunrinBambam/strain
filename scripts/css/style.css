@@ -1,0 +1,139 @@
+.plist {
+	list-style: none;
+}
+
+/**
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+	box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);	
+	border: 1px solid #0000FF;
+*/
+.plist li {
+	display: inline-block;
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+
+}
+ul.plist li div.ac {
+	text-align: right;
+
+}
+ul.plist li div.ac a {
+	
+	text-decoration: none;
+	
+}
+.plist li:hover {
+	border: solid 1px #9a9999;
+}
+
+.breadcrumb {
+  padding: 2px 2px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color:#404344;
+}
+.breadcrumb > li + li:before {
+	content: "|";
+	color:white;
+	padding: 0 5px;
+}
+.breadcrumb > li > a {
+	color: #ffffff;
+	font-size: 11px;
+}
+#h-h{
+	font-weight: bold;
+}
+#h-s {
+	font-size: 11px;
+}
+.cat {
+	background-color:#404344;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding:6px;
+	padding-left: 5px;
+	font-style: calibri;
+	margin-bottom: 0px;
+}	
+.catlist {
+	background-color:#ffffff;
+	color: #000000;
+	padding:6px;
+	padding-left: 5px;
+	font-style: calibri;
+	margin-bottom: 0px;
+}	
+ul.cat_list {
+	list-style: none;
+	margin:0px;
+	padding:8px;
+	-webkit-box-shadow: 3px 3px 10px 3px rgba(43, 43, 77, 0.5);
+	-moz-box-shadow: 3px 3px 10px 3px rgba(43, 43, 77, 0.5);
+	box-shadow: 3px 3px 10px 3px rgba(43, 43, 77, 0.5);	
+
+}
+ul.cat_list li{
+	padding:5px;
+}
+.cartno {
+	color: red;
+	background-image:url(../../images/cart_no2.png);
+	font-weight: bold;
+	min-height: 42px;
+	min-width: 36px;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	text-align: center;
+	text-indent:20px;
+	padding-top: 4px;
+	font-size: 1.1em;
+	background-position: right;
+
+
+}
+#num {
+	color: red;
+	text-align: center;
+	text-indent:20px;
+}
+#num:hover{
+	color: red;
+	text-align: center;
+	text-indent:20px;
+	cursor:pointer	;
+}
+.cartno span{
+
+	
+}
+.edit .open > a, .nav .open > a:hover,
+.edit .open > a:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+.edit > li > a, .nav > li > a:hover,
+.edit > li > a:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+.panel-title {
+	font-weight: bold;
+}
+.ud, .ud li a{
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	color: white;
+}
+.uda {
+	list-style: square;
+	padding: 0px;
+	padding-left: 10px;
+	font-style: italic;
+}
